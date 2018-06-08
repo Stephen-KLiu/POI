@@ -18,7 +18,7 @@ public class MyPOI
 	@Test
 	public void write() throws IOException
 	{
-		//创建一个工作簿对象，，
+		//创建一个工作簿对象
 		//Workbook workbook = new HSSFWorkbook();//.xls文件
 		Workbook workbook = new XSSFWorkbook();//.xlsx文件
 		//创建一个工作表
