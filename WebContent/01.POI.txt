@@ -1,0 +1,12 @@
+1.POI：Poor Obfuscation Implementation	穷混淆实现，即操作Excel文件
+
+	1).在Apache POI下载poi-bin.zip
+	2).所需jar包
+		poi.jar、poi-ooxml.jar、poi-ooxml-schemas.jar、xmlbeans.jar(ooxml-lib目录下)、
+		commons-codec.jar、commons-collections4.jar、commons-logging.jar
+2.HSSF：Horrible SpreadSheet Format		讨厌的电子表格格式
+----------------------------------------------------------------------------------
+3.
+	1).HSSFWorkbook：	.xls文件(不能超过65536条记录)
+	2).XSSFWorkbook：	.xlsx文件(不能超过65536条记录)
+	3).SXSSFWorkbook：	.xls文件(可以超过65536条记录后)
